@@ -3,8 +3,8 @@ const config = {
 	"start_url": "https://z-kit.net/vm-landing.html", // url to open when the vm starts
 
 	"timeout": {
-		"main": 900, // time until the vm is terminated in seconds
-		"afk": 120, // if the user is afk for this time, the vm will be terminated
+		"main": 1800, // time until the vm is terminated in seconds
+		"afk": 180, // if the user is afk for this time, the vm will be terminated
 		"offline": 5, // if the vm is offline for this time, the vm will be terminated
 		"warning": 60 // show a warning when this much time is left
 	},
@@ -14,7 +14,7 @@ const config = {
 	"tagbase": "zena-vm", // base tag for the vm (a timestamp will also be added). this will be used to identify the vm
 	"mobile": true, // mobile support
 
-	"search_engine": "google", // search engine to use. allowed values: duckduckgo, google, startpage, ecosia, brave
+	"search_engine": "duckduckgo", // search engine to use. allowed values: duckduckgo, google, startpage, ecosia, brave
 
 	"quality": "smooth", // quality of the vm. allowed values: smooth, blocky or sharp. smooth is recommended as sharp uses triple the bandwidth
 };
